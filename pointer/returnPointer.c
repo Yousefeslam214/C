@@ -15,5 +15,3 @@ int main(void)
 	printf("%d\n", addition);
 return (0);
 }
-
-
