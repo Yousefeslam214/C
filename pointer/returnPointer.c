@@ -14,4 +14,4 @@ int main(void)
 	printf("%d\n", multiply);
 	printf("%d\n", addition);
 return (0);
-}
+} 

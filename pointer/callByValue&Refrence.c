@@ -7,13 +7,15 @@ int sumByReference(int *a, int *b)
 }
 int sumByValue(int a, int b)
 {
-	a = a + b ;
-	return a ;
+	a = a + b;
+	return a;
 }
 int main(void)
 {
 	int firstNumber = 20;
 	int secondNumber = 30;
+	
+
 	printf("firstNumber : %d\n", firstNumber);
 	int resultValue = sumByValue(firstNumber, secondNumber);
 	printf("resultValue : %d\n", resultValue);
