@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    char* strings[] = {"nknj","ddfdsf","gfdds"};
+    /*char* strings[] = {"nknj","ddfdsf","gfdds"};
     printf("%s\n",strings[1]);
-    return (0);
+    return (0);*/
 } 
