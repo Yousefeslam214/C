@@ -8,6 +8,8 @@ using namespace std;
  * 
  * main - Call the recursive function.
  * Return: zero.
+ * 
+ * Competitve programing: https://www.youtube.com/watch?v=hyk46UmJPS4
 */
 void sayIamTopCoder(int cnt)
 {
