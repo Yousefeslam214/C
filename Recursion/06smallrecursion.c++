@@ -12,11 +12,11 @@ using namespace std;
 
 void printNumber(int n) // for n > 0
 {  //1234567
-    if(n) // This block will executed when the value of n is non-zero.
-    {
-        printNumber(n / 10);  //214/10 = 21
-        cout << n % 10<<endl;       //214%10 =4
-    }
+	if(n) // This block will executed when the value of n is non-zero.
+	{
+		printNumber(n / 10);  //214/10 = 21
+		cout << n % 10<<endl;       //214%10 =4
+	}
 }
 
 /**
@@ -27,17 +27,17 @@ void printNumber(int n) // for n > 0
 
 void printNumberBits(int n) // for n > 0
 {
-    if(n)  // This block will executed when the value of n is non-zero.
-    {
-        printNumberBits(n / 2);   //214/2 = 1101011 last bit removed
-        cout << n % 2;            //214%2 = 0
-    }
+	if(n)  // This block will executed when the value of n is non-zero.
+	{
+		printNumberBits(n / 2);   //214/2 = 1101011 last bit removed
+		cout << n % 2;            //214%2 = 0
+	}
 }
 
 int main()
 {
-    printNumber(214);
-    printNumberBits(214);
-    cout<<endl;
-    return 0;
+	printNumber(214);
+	printNumberBits(214);
+	cout<<endl;
+	return 0;
 }
