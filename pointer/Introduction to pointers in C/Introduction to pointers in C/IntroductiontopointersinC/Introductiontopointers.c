@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *https://www.youtube.com/watch?v=zuegQmMdy8M&t=724s
+ * https://www.youtube.com/watch?v=zuegQmMdy8M&t=724s
  *
- *FreeCodeCamp
+ * FreeCodeCamp
+ * 
+ * 
+ * Pointers - Variable that store address of other variables.
  */
 int main(void)
 {
@@ -17,5 +20,6 @@ int main(void)
 	printf("*p is : %d\n",*p);/* *p is : 5 *//* dereferencing = عدم الرجوع*/
 	*p=8;
 	printf("a is  : %d\n",a);/*   a is : 8 */
+	printf("***********************\n");
 	return (0);
 } 
