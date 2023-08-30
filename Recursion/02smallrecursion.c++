@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 /**
- * sayIamTopCoder - function is said to be recursive
+ * fact - function is said to be recursive
  * if it calls itself.
  * 
  * main - Call the recursive function.
